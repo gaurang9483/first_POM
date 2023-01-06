@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: python-maven
+Version: 0.0.3
+Summary: Pymaven is a Python library for interfacing with the maven build system.
+Home-page: https://github.com/sassoftware/pymaven
+Author: Walter Scheper
+Author-email: Walter.Scheper@sas.com
+License: MIT
+Keywords: maven
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: six
+Requires-Dist: lxml
+
+**Archived Repository**
+
+**Notice: This repository is part of a Conary/rpath project at SAS that is no longer supported or maintained. Hence, the repository is being archived and will live in a read-only state moving forward. Issues, pull requests, and changes will no longer be accepted.**
+
+=======
+Pymaven
+=======
+
+Overview
+========
+
+Pymaven is a Python library for interfacing with the maven build system. There
+are two major interfaces:
+
+* pymaven.client provides a basic maven repository client
+* pymaven.pom provides a Pom object that can provide progromatic access to
+  a maven pom file
